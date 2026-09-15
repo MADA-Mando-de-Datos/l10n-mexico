@@ -1,2 +1,5 @@
 # generated from manifests external_dependencies
+pdfminer.six
 requests-mock
+satcfdi
+

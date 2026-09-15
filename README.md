@@ -22,8 +22,23 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [currency_rate_update_banxico](currency_rate_update_banxico/) | 18.0.1.0.0 |  | Update exchange rates using Banxico
-[l10n_mx_sat](l10n_mx_sat/) | 18.0.1.0.0 | <a href='https://github.com/max3903'><img src='https://github.com/max3903.png' width='32' height='32' style='border-radius:50%;' alt='max3903'/></a> | Connect to the SAT portal using FIEL credentials & manage downloads
-[l10n_mx_tax](l10n_mx_tax/) | 18.0.1.0.0 | <a href='https://github.com/max3903'><img src='https://github.com/max3903.png' width='32' height='32' style='border-radius:50%;' alt='max3903'/></a> | Adds ISH, ISN, and IEPS 200% taxes to the Mexican localization
+[l10n_mx_account_reports](l10n_mx_account_reports/) | 18.0.1.1.0 | <a href="https://github.com/max3903"><img src="https://github.com/max3903.png" width="32" height="32" style="border-radius:50%;" alt="max3903"/></a> | Financial and tax reports for the Mexican localization
+[l10n_mx_catalogs](l10n_mx_catalogs/) | 18.0.1.1.0 |  | Catalogs of Servicio de Administración Tributaria (SAT) from México
+[l10n_mx_catalogs_comex](l10n_mx_catalogs_comex/) | 18.0.1.0.0 |  | Foreign trade catalogs for Mexico
+[l10n_mx_cfdi](l10n_mx_cfdi/) | 18.0.2.2.0 |  | Allow generating CFDI (Comprobante Fiscal Digital por Internet)
+[l10n_mx_cfdi_account](l10n_mx_cfdi_account/) | 18.0.1.1.0 |  | Mexico CFDI Account Integration
+[l10n_mx_cfdi_account_addenda_audi](l10n_mx_cfdi_account_addenda_audi/) | 18.0.1.0.0 |  | Mexican Localization Addendum For Audi
+[l10n_mx_cfdi_account_addenda_ford](l10n_mx_cfdi_account_addenda_ford/) | 18.0.1.0.0 |  | Mexican Localization Addendum For Ford
+[l10n_mx_cfdi_account_addenda_kuehne_nagel](l10n_mx_cfdi_account_addenda_kuehne_nagel/) | 18.0.1.0.0 |  | Mexican Localization Addendum KNRECEPCION For Kuehne+Nagel
+[l10n_mx_cfdi_account_addenda_mabe](l10n_mx_cfdi_account_addenda_mabe/) | 18.0.1.0.0 |  | Mexican Localization Addendum For MABE
+[l10n_mx_cfdi_account_addenda_volkswagen](l10n_mx_cfdi_account_addenda_volkswagen/) | 18.0.1.0.0 |  | Mexican Localization Addendum For Volkswagen
+[l10n_mx_cfdi_account_addenda_whirlpool](l10n_mx_cfdi_account_addenda_whirlpool/) | 18.0.1.0.0 |  | Mexican Localization Addendum For Whirlpool
+[l10n_mx_cfdi_comex](l10n_mx_cfdi_comex/) | 18.0.1.1.0 |  | Mexico foreign trade invoicing compliance
+[l10n_mx_cfdi_waybill](l10n_mx_cfdi_waybill/) | 18.0.1.1.0 |  | Provee soporte para generación de cartas porte con gestión de flotas simplificada.
+[l10n_mx_res_partner_csf](l10n_mx_res_partner_csf/) | 18.0.1.0.0 |  | Scan and extract information from CSF
+[l10n_mx_sat](l10n_mx_sat/) | 18.0.1.0.0 | <a href="https://github.com/max3903"><img src="https://github.com/max3903.png" width="32" height="32" style="border-radius:50%;" alt="max3903"/></a> | Connect to the SAT portal using FIEL credentials & manage downloads
+[l10n_mx_sat_vendor_bill](l10n_mx_sat_vendor_bill/) | 18.0.1.0.0 | <a href="https://github.com/max3903"><img src="https://github.com/max3903.png" width="32" height="32" style="border-radius:50%;" alt="max3903"/></a> | Create vendor bills from SAT received CFDIs
+[l10n_mx_tax](l10n_mx_tax/) | 18.0.1.0.0 | <a href="https://github.com/max3903"><img src="https://github.com/max3903.png" width="32" height="32" style="border-radius:50%;" alt="max3903"/></a> | Adds ISH, ISN, and IEPS 200% taxes to the Mexican localization
 
 [//]: # (end addons)
 

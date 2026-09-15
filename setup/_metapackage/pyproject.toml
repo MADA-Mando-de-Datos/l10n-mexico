@@ -1,13 +1,29 @@
 [project]
 name = "odoo-addons-oca-l10n-mexico"
-version = "18.0.20260621.0"
+version = "18.0.20260912.0"
 dependencies = [
     "odoo-addon-currency_rate_update_banxico==18.0.*",
+    "odoo-addon-l10n_mx_account_reports==18.0.*",
+    "odoo-addon-l10n_mx_catalogs==18.0.*",
+    "odoo-addon-l10n_mx_catalogs_comex==18.0.*",
+    "odoo-addon-l10n_mx_cfdi==18.0.*",
+    "odoo-addon-l10n_mx_cfdi_account==18.0.*",
+    "odoo-addon-l10n_mx_cfdi_account_addenda_audi==18.0.*",
+    "odoo-addon-l10n_mx_cfdi_account_addenda_ford==18.0.*",
+    "odoo-addon-l10n_mx_cfdi_account_addenda_kuehne_nagel==18.0.*",
+    "odoo-addon-l10n_mx_cfdi_account_addenda_mabe==18.0.*",
+    "odoo-addon-l10n_mx_cfdi_account_addenda_volkswagen==18.0.*",
+    "odoo-addon-l10n_mx_cfdi_account_addenda_whirlpool==18.0.*",
+    "odoo-addon-l10n_mx_cfdi_comex==18.0.*",
+    "odoo-addon-l10n_mx_cfdi_waybill==18.0.*",
+    "odoo-addon-l10n_mx_res_partner_csf==18.0.*",
     "odoo-addon-l10n_mx_sat==18.0.*",
+    "odoo-addon-l10n_mx_sat_vendor_bill==18.0.*",
     "odoo-addon-l10n_mx_tax==18.0.*",
 ]
-classifiers=[
+classifiers = [
     "Programming Language :: Python",
     "Framework :: Odoo",
     "Framework :: Odoo :: 18.0",
 ]
+
