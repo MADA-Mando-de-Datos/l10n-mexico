@@ -433,6 +433,7 @@ class L10nMxSatDownloadRequest(models.Model):
             )
             return
 
+        original_date_to = self.date_to
         mid = self.date_from + (delta / 2)
         # Current request covers first half; create second half if not duplicate.
         self.write(
@@ -463,7 +464,7 @@ class L10nMxSatDownloadRequest(models.Model):
                         self.direction,
                         self.request_type,
                         mid + timedelta(seconds=1),
-                        self.date_to,
+                        original_date_to,
                     ),
                 )
             ],
@@ -477,7 +478,7 @@ class L10nMxSatDownloadRequest(models.Model):
                     "direction": self.direction,
                     "request_type": self.request_type,
                     "date_from": mid + timedelta(seconds=1),
-                    "date_to": self.date_to,
+                    "date_to": original_date_to,
                     "state": "draft",
                 }
             )
@@ -696,7 +697,7 @@ class L10nMxSatDownloadRequest(models.Model):
                 package.write({"state": "processed"})
             except Exception:
                 package.write({"state": "error"})
-                _logger.exception("Error processing package %s", package.package_id)
+                _logger.exception("Error processing package %s", package.sat_package_id)
 
         all_error = self.package_ids and all(
             p.state == "error" for p in self.package_ids
